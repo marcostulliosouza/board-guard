@@ -62,23 +62,23 @@ O script main.py executa as seguintes etapas:
 Se você deseja contribuir para este projeto, siga estas etapas:
 
 1.	Faça um Fork do Repositório:
-•	Clique no botão “Fork” no canto superior direito do repositório.
+Clique no botão “Fork” no canto superior direito do repositório.
 2.	Crie uma Nova Branch:
-•	Crie uma branch para suas alterações:
+Crie uma branch para suas alterações:
 ```bash
 git checkout -b minha-nova-branch
 ```
 3.	Faça suas Alterações:
-•	Edite, adicione ou remova arquivos conforme necessário.
+Edite, adicione ou remova arquivos conforme necessário.
 4.	Commit e Push:
-•	Faça o commit das suas alterações e envie para o seu fork:
+Faça o commit das suas alterações e envie para o seu fork:
 ```bash
 git add .
 git commit -m "Descrição das alterações"
 git push origin minha-nova-branch
 ```
 5.	Crie um Pull Request:
-•	Vá para o repositório original e crie um Pull Request a partir da sua branch.
+Vá para o repositório original e crie um Pull Request a partir da sua branch.
 
 ## Licença
 
