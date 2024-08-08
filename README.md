@@ -30,13 +30,16 @@ O projeto **Board Guard** tem como objetivo prever falhas em placas eletrônicas
    ```bash
    git clone https://github.com/marcostulliosouza/board-guard.git
    cd board-guard
+   ```
 2. **Crie e ative um ambiente virtual:**
    ```bash
    python -m venv venv
    source venv/bin/activate  # Para Windows: venv\Scripts\activate
+   ```
 3. **Instale as dependências:**
    ```bash
    pip install -r requirements.txt
+   ```
 4. **Prepare os dados:**
 
 Certifique-se de ter os arquivos de dados necessários (X_train.npy, X_test.npy, y_train.npy, y_test.npy) na pasta correta.
@@ -47,7 +50,7 @@ O projeto inclui um script principal para executar todas as etapas do processo. 
 
    ```bash
    python main.py
-
+   ```
 O script main.py executa as seguintes etapas:
 
 	1.	Treina o modelo usando os dados de treinamento.
@@ -64,7 +67,8 @@ Se você deseja contribuir para este projeto, siga estas etapas:
 	   •	Crie uma branch para suas alterações:
       ```bash
       git checkout -b minha-nova-branch
-   3.	Faça suas Alterações:
+      ```
+        3.	Faça suas Alterações:
 	   •	Edite, adicione ou remova arquivos conforme necessário.
 	4.	Commit e Push:
 	   •	Faça o commit das suas alterações e envie para o seu fork:
@@ -72,7 +76,8 @@ Se você deseja contribuir para este projeto, siga estas etapas:
       git add .
       git commit -m "Descrição das alterações"
       git push origin minha-nova-branch
-   5.	Crie um Pull Request:
+      ```
+        5.	Crie um Pull Request:
 	   •	Vá para o repositório original e crie um Pull Request a partir da sua branch.
 
 ## Licença
